@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Weather</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5 mb-4 text-center">Check Your Weather Today!</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <form id="weather-form" class="mb-4">
+                    <div class="input-group">
+                        <input type="text" id="location-input" class="form-control" placeholder="Search city">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-secondary">Find Weather</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="history-log"></div>
+            </div>
+            <div class="col-md-8">
+                <div id="weather-current" class="card mb-4"></div>
+                <div id="weather-forecast" class="card-deck"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

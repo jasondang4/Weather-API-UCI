@@ -1,0 +1,21 @@
+/* Updated styling for weather display components */
+#current-weather, #forecast {
+    margin-bottom: 25px; /* Updated margin for spacing */
+}
+.weather-icon {
+    width: 60px; /* Slightly larger icons */
+    height: auto; /* Keeps the image ratio intact */
+}
+
+/* Styling for items in the search history list */
+.search-history-item {
+    cursor: pointer; /* Indicates the item is clickable */
+    padding: 8px; /* More padding for better touch interaction */
+    margin-bottom: 6px; /* Slightly different margin */
+    background-color: #f2f2f2; /* Lighter shade of grey */
+    border: 1px solid #ddd; /* Adds a subtle border */
+    border-radius: 6px; /* Smooth rounded corners */
+}
+.search-history-item:hover {
+    background-color: #dcdcdc; /* Darker shade on hover for visual feedback */
+}
